@@ -1,0 +1,101 @@
+*{
+    font-family:Arial, Helvetica,sans-serif;
+}body{
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(44, 43, 43));
+}
+
+/* Cabeçario*/
+#top{
+    font-size: 19px;
+    display: inline;
+    width: 100%;
+}
+#direita{
+    float: right;
+}
+#esquerda{
+    float: left;
+    margin: 10px;
+}
+#logo{
+    border-radius: 500px;
+    margin-right: 7px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 4px orangered;    
+}
+#texto{
+    color: orangered;
+}
+.separa:hover{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    transition:0.5s;
+}
+.separa{
+    margin:25px;
+}
+.redesocial{
+    border-radius: 110px;
+    box-shadow: 1px 1px 14px orangered;
+    transition: all 0.4s ease-out;
+    margin:5px;
+}
+#preço{
+    color: orangered;
+    font-size: 40px;
+    text-align: center !important;
+}
+.redesocial:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.redesocial#facebook{
+    background-color: b#0b1494;
+}
+.redesocial#instram{
+    background-color: 3f729b;
+}
+.redesocial#whatsapp{
+    background-color: greenyellow;
+}
+a{
+    text-decoration: none;
+    color: rgb(248, 96, 41);
+}
+h1{
+    color: orangered;
+    display: block;
+    text-align: center;
+}
+h2{
+    color: orangered;
+}
+
+#tabela{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    border: solid 1px orangered;
+    font-size: 20px;
+    width: 100%;
+}
+p { text-align: left !important; }
+
+
+#fim{
+    font-size: 16px;
+}
+#autores{
+    float: right;
+}
+span{
+  color: white;
+}
+footer{
+    text-align: right;
+    font-size: 10px;
+}
